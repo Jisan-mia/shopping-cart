@@ -56,3 +56,28 @@ body{
 	background-color: #2FBE70;
 	border: none;
 }
+/*section two */
+#sectionTwo{
+	background-color: gray;
+	display: none;
+	text-align: center;
+	margin: 100px 500px;
+	color: white;
+	padding: 80px 50px;
+}
+#secTwoLink,#secTwoLink2{
+	color: black;
+}
+#setTwoh1{
+	font-size: 22px;
+}
+#secTwop1,#secTwop2{
+	margin-top: 7px;
+	font-size: 15px;
+	padding-top: 7px;
+	margin: 0px;	
+}
+#btn-link{
+	color: black;
+	text-decoration: none;
+}
