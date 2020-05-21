@@ -49,7 +49,7 @@ function floatingValue(id){
 
 //get and float the innerHTML (function)
 function floatingInnerText(id){
-    const number = document.getElementById(id).innerHTML;
+    const number = document.getElementById(id).innerHTML.replace(',', '');
     const floatingNumber = parseFloat(number);
     return floatingNumber;
 }
